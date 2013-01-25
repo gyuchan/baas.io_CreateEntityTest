@@ -18,7 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     //baas.io 초기화하기
-    [BaasClient setApplicationInfo:@"gyuchan" applicationName:@"sandbox"];
+    [BaasClient setApplicationInfo:@{baas.io ID} applicationName:@"sandbox"];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
